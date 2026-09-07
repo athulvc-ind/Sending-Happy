@@ -127,7 +127,7 @@ a {
   font-weight: 400;
 
   margin-bottom: 14px;
-  font-family: 'Poppins regular', sans-serif;
+  font-family: 'poppins-bold', sans-serif;
 }
 .hero-title{
     font-family: 'Poppins',
@@ -269,7 +269,7 @@ a {
   width: 100%;
   height: 100%;
 
-  display: ;
+  display:flex ;
 
   object-fit: cover;
 }
