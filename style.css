@@ -394,7 +394,9 @@ background: linear-gradient(
   }
 
 }
-
+/* 
+   Tablet Styles
+    */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
 
    .header {
@@ -423,10 +425,42 @@ background: linear-gradient(
     width: 100%;
     max-width: 100%;
     height: auto;
-  display: flex;   
+   
   }
 
    .services-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
+}
+
+/* 
+   Large Styles
+    */
+@media only screen and (min-width: 769px) and (max-width: 893px) {
+  
+  .hero-title span {
+    font-size: clamp(40px, 8vw, 85px);
+  }
+  .hero p {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    
+  }
+
+
+  .hero-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+   .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+}
