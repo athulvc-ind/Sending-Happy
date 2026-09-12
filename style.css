@@ -311,6 +311,7 @@ background: linear-gradient(
   width: 180px;
   display: block;
   margin-bottom: 25px;
+  max-height: 80px;
 }
 
 .footer-social {
